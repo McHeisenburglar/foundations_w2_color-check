@@ -29,6 +29,7 @@ if user_color in colors:
 	</head>
 	<body>
 		<div id="main">
+			<h1><a href="index.html">Color check</a></h1>
 			<h2><span style="font-family: 'JetBrains Mono'; font-weight: 400; color:#4A7768">{form["color"].value}</span> is a color!</h2>
 			<h3>Here's what it looks like:</h3>
 			<div style="background-color: {form["color"].value}"id="color_block"></div>
