@@ -1,0 +1,125 @@
+body {
+	background-color: #FFFCE3;
+	font-family: 'Noto Serif';
+}
+
+#main {
+	width: 40%;
+	background-color: white;
+	margin: 80px auto;
+	padding: 72px 48px 64px 48px;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'Roboto';
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #A2A6A4;
+}
+
+h2 {
+	word-wrap: break-word;
+}
+
+h3 {
+	margin-top: -10px;
+	color: #747776;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+label {
+	font-weight: bold;
+	font-size: 24px;
+	color: #282929;
+	margin-bottom: 24px;
+	display: block;
+}
+
+input {
+	font-family: 'Noto Serif';
+	display: block;
+	height: 40px;
+	font-size: 16px;
+	padding: 8px 12px;
+	outline: none;
+	box-sizing: border-box;
+	border: 1px solid #d4d4d4;
+	border-radius: 4px;
+	transition-duration: 0.3s;
+	margin-bottom: 24px;
+}
+
+input:focus {
+	outline: none;
+	border: 1px solid #DCB293;
+	transition-duration: 0.3s;
+}
+
+input:hover {
+	background-color: #FBFAF5;
+	transition-duration: 0.3s;
+}
+
+input:invalid + #check_button {
+	background-color: #11BD9833;
+	transition-duration: 0.6s;
+}
+
+input:valid + #check_button {
+	background-color: #11BD98;
+	transition-duration: 0.6s;
+}
+
+#check_button, #back_button {
+	background-color: #11BD98;
+	font-family: 'JetBrains Mono';
+	font-size: 16px;
+	font-family: 700;
+	color: white;
+	border: none;
+	outline: none;
+	width: 200px;
+	height: 40px;
+	transition-duration: 0.3s;
+	padding-top: 2px;
+}
+
+input::placeholder {
+	color: #AFB3B2;
+}
+
+input:invalid + #check_button:hover {
+	cursor: not-allowed;
+	background-color: #11BD9833;
+}
+
+input:valid + #check_button:hover, #back_button:hover {
+	cursor: pointer;
+	background-color: #15D1A8;
+	transition-duration: 0.3s;
+}
+
+input:valid + #check_button:active, #back_button:active {
+	background-color: #00B890;
+}
+
+#color_block {
+	margin-top: 32px;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 36px;
+}
+
+h1 a, h1 a:visited {
+	text-decoration: none;
+	color: #A2A6A4;
+	transition-duration: 0.3s;
+}
+
+h1 a:hover {
+	color: #11BD98;
+	transition-duration: 0.3s;
+}

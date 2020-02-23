@@ -1,0 +1,12 @@
+AliceBlue
+Azure
+Beige
+Bisque
+Black
+BlanchedAlmond
+Blue
+BlueViolet
+Brown
+BurlyWood
+CadetBlue
+Chartreuse

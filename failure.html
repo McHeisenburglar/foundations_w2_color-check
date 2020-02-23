@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Try again</title>
+	<link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+	<div id="main">
+		<h1><a href="/index.html">Color check</a></h1>
+		<h2>Unfortunately, that is not a color.</h2>
+		<h3>You can try again here:</h3>
+		<form action="~/cgi-bin/generate.py" method="GET">
+			<input autocomplete="off" type="text" name="color" id="color_input" placeholder="'red', '#fa32bc', etc" required>
+			<button id="check_button" type="submit">Check color</button>
+		</form>
+	</div>
+	<script> </script>
+</body>
+</html>
